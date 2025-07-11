@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Container, Text, Grid, Button, Center } from '@mantine/core';
+import { MantineProvider,Container, Text, Grid, Button, Center } from '@mantine/core';
 import { useRouter } from 'next/navigation';
 import {
   IconBrandHtml5,
@@ -56,7 +56,8 @@ function LandingPage( ) {
   ];
 
   return (
-    <Container ta="center" fluid my="md">
+    <div style={{ backgroundColor: '#000', color: '#fff', minHeight: '100vh', padding: '40px 20px' }}>
+    <Container ta="center" fluid my="md" color='black'>
       <h1>
         <Text component="span" variant="text" c="cyan" inherit>
           Mentor Connect
@@ -101,12 +102,13 @@ function LandingPage( ) {
                 leftSection= {<IconUsers size={32}/>}
                 onClick={() => router.push(`/topic/${"all"}`)}
               >
-                Explore All
+                View All
               </Button>
             </Grid.Col>
         </Grid>
       </Center>
     </Container>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-// File: C:\Users\parth\OneDrive\Desktop\Mentor_connect\frontend\mentor-connect\src\app\favorites\page.tsx
+// File: C:\Users\prana\OneDrive\Desktop\ok\M-M-connect\frontend\mentor-connect\src\app\favorites\page.tsx
 import * as entry from '../../../../src/app/favorites/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

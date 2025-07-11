@@ -1,4 +1,4 @@
-// File: C:\Users\parth\OneDrive\Desktop\Mentor_connect\frontend\mentor-connect\src\app\appointments\page.tsx
+// File: C:\Users\prana\OneDrive\Desktop\ok\M-M-connect\frontend\mentor-connect\src\app\appointments\page.tsx
 import * as entry from '../../../../src/app/appointments/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

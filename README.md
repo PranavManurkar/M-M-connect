@@ -1,21 +1,26 @@
 # Mentor Connect
 
-Mentor Connect is an application that facilitates connections between mentors and mentees across various topics. It enables mentees to book appointments with mentors, engage in chat conversations, and leave reviews after the session. The platform aims to create a seamless mentorship experience.
+Mentor Connect is a platform designed to bridge the gap between mentors and mentees by offering a streamlined experience for scheduling, communication, and feedback. Whether you're seeking guidance or sharing your expertise, Mentor Connect ensures every interaction is efficient and meaningful.
 
 ## Features
+- **Smart Mentor Discovery**:
+Easily explore mentors based on areas of expertise and interests. Mentees can filter and find the right match for their needs.
 
-- **Mentor-Mentee Matching**: Mentees can browse mentors in different topics and book appointments.
-- **Appointment Booking**: Mentees can schedule appointments with mentors after confirming their availability.
-- **Chat**: Mentors and mentees can communicate in real time through an integrated chat feature.
-- **Reviews**: After each session, mentees can leave feedback to help mentors improve and assist future mentees in making informed decisions.
+- **Seamless Appointment Scheduling**:
+Mentees can view mentor availability and book sessions with just a few clicks.
 
+- **Integrated Real-Time Chat**:
+Built-in chat allows direct communication between mentors and mentees before and after appointments.
+
+- **Post-Session Feedback**:
+Mentees can provide reviews after each session, helping mentors grow and future mentees choose wisely.
 ## Tech Stack
 
 - **Frontend**: Next.js, React, Mantine UI
 - **Backend**: Django
 - **Authentication**: JWT (JSON Web Token)
 - **Database**: SQLite
-- 
+  
 ## Installation
 
 1. Clone the repository:
